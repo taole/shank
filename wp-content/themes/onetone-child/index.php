@@ -533,12 +533,12 @@ be who we are without them. And in turn, are willing to stake our futures on cre
 						'menu_slug'=>'bazaar',
 						'section_background'=>  array(
 												  'color' => '#ffffff',
-												  'image' => '',
+												  'image' => THEME_URL.'/images/bg.png',
 												  'repeat' => 'no-repeat',
 												  'position' => 'bottom center',
 												  'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#fff' ),
+						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#fff' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
 						'section_padding'=>'50px 0',
@@ -558,41 +558,43 @@ be who we are without them. And in turn, are willing to stake our futures on cre
 						'menu_slug'=>'contact',
 						'section_background'=>  array(
 												  'color' => '',
-												  'image' => esc_url('http://www.mageewp.com/onetone/wp-content/uploads/sites/17/2015/11/last4.jpg'),
+												  'image' => '',
 												  'repeat' => 'no-repeat',
 												  'position' => 'bottom center',
 												  'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+						'section_title_typography'=> array('size'  => '44px','face'  => '','style' => 'normal','color' => '#222', 'weight'=>'600' ),
+						'section_content_typography'=> array('size'  => '16px','face'  => '','style' => 'normal','color' => '#222' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
 						'section_padding'=>'50px 0',
 						'text_align'=>'left',
-						'section_content'=>'<p style="text-align: center; color: #666666;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						'section_content'=>'
+            <div class="content-ct">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 <div><form class="" action="" method="post">
 <div class="row">
 	<div class="col-md-6">
 		<div class="form-group">
-		    <label for="exampleInputEmail1">Name</label>
+		    <label for="exampleInputName">Name<span class="text-danger">*</span></label>
 		    <input  id="name" class="form-control" tabindex="1" name="name" size="22" type="text" value="" placeholder="Name" />
 		  </div>
 	</div>
 	<div class="col-md-6">
 		<div class="form-group">
-		    <label for="exampleInputEmail1">Email address</label>
+		    <label for="exampleInputEmail">Email address<span class="text-danger">*</span></label>
 		    <input id="email" class="form-control" tabindex="2" name="email" size="22" type="text" value="" placeholder="Email" />
 		</div>
 	</div>
 </div>
 	<div class="form-group">
-	    <label for="exampleInputEmail1">Message</label>
+	    <label for="exampleInputMessage">Message<span class="text-danger">*</span></label>
 	    <textarea id="message" class="form-control" tabindex="4" cols="39" name="x-message" rows="7" placeholder="Message"></textarea>
 </div>
 
   
 
 <input id="sendto" name="sendto" type="hidden" value="YOUR EMAIL HERE(Default Admin Email)" />
-<input id="submit" name="submit" type="button" value="Post" /></form></div>',
+<input id="submit" name="submit" type="button" value="SEND" /></form></div></div>',
 			
 						),
 				  

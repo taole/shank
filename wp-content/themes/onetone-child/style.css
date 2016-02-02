@@ -48,6 +48,7 @@ section#section-2 .promo-info h4 em:before{ content: ""; padding: 1px 0 2px; pos
 section#section-2 .promo-info p,
 section#crew .home-section-content p,
 section#gallery .home-section-content p,
+section#contact .home-section-content p,
 section#bazaar .home-section-content p {font-family: 'Open Sans', sans-serif; font-size: 18px; color: #6c6c6c; line-height: 25px; margin-bottom: 25px;  }
 section#section-2 .promo-action img { margin-right: 35px; }
 
@@ -55,9 +56,11 @@ section#section-2 .promo-action img { margin-right: 35px; }
 section#crew .home-section-content .btn-normal{padding: 15px 55px; color: #616161;font-family: 'Open Sans', sans-serif; font-size: 12px; background: #fff; border: 1px solid #7f7f7f;}
 section#crew .home-section-content p,
 section#gallery .home-section-content p,
+section#contact .home-section-content p,
 section#bazaar .home-section-content p { font-style: italic;}
 
-.homepage section .home-container h1 {position: relative; font-family: 'Open Sans', sans-serif; font-size: 44px!important; color: #fff!important; font-weight: 600!important; padding-bottom: 30px;}
+.homepage section .home-container h1,
+section#contact .home-container h1 {position: relative; font-family: 'Open Sans', sans-serif; /*font-size: 44px!important; color: #fff!important;*/ font-weight: 600!important; padding-bottom: 30px; text-transform: uppercase;}
 .homepage section .home-container h1:before{ content: ""; padding: 1px 0 2px; position: absolute; background: #0092ff; bottom: 0; width: 100px; left: 50%; margin-left: -50px; }
 .homepage section .home-container h1:after{ content: ""; padding: 1px 0 2px; position: absolute; background: #0092ff; bottom: -9px; width: 50px; left: 50%; margin-left: -25px; }
 
@@ -66,4 +69,12 @@ section#gallery .img-box img {width: 262px; margin:15px 0;}
 section#bazaar .home-container .home-section-content{ text-align: center; color: #fff !important;}
 section#bazaar .home-section-content p { text-align: center; color: #fff !important;}
 section#bazaar { background: url("./images/bg.png") repeat top left scroll; padding: 102px 0 !important;}
-section#bazaar .home-container h1 { margin-bottom: 60px;}
+section#bazaar .home-container h1,
+section#contact .home-container h1{ margin-bottom: 60px;}
+
+
+section#contact .section-title{ color: #222;}
+section#contact .content-ct{ width: 66.66666667%; margin: 0 auto;}
+section#contact .content-ct form{ margin-top:80px;}
+section#contact .content-ct form label { font-family: 'Open Sans', sans-serif;font-weight: normal; font-size: 14px; color: #636363;}
+section#contact .content-ct #submit{background: #00a8ff; color: #fff; line-height: 1; padding:12px 60px; border: none; text-transform: uppercase; float: right}

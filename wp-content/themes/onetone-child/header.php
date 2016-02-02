@@ -22,7 +22,6 @@
   $top_bar_right_content       = onetone_option('top_bar_right_content','info');
   
   $logo               = onetone_option('logo',THEME_URL.'/logo.png');
-  print_r($logo); die();
   $logo_retina        = onetone_option('logo_retina');
   $logo               = ( $logo == '' ) ? $logo_retina : $logo;
   $sticky_logo        = onetone_option('sticky_logo',$logo);
