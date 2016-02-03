@@ -70,7 +70,8 @@ section#bazaar .home-container .home-section-content{ text-align: center; color:
 section#bazaar .home-section-content p { text-align: center; color: #fff !important;}
 section#bazaar { background: url("./images/bg.png") repeat top left scroll; padding: 102px 0 !important;}
 section#bazaar .home-container h1,
-section#contact .home-container h1{ margin-bottom: 60px;}
+section#contact .home-container h1,
+section#gallery .home-container h1 { margin-bottom: 60px;}
 
 
 section#contact .section-title{ color: #222;}

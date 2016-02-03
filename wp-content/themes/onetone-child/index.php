@@ -387,16 +387,16 @@ be who we are without them. And in turn, are willing to stake our futures on cre
 						'menu_title'=>'Gallery',
 						'menu_slug'=>'gallery',
 						'section_background'=> array(
-												'color' => '#eeeeee',
+												'color' => '#fff',
 												'image' => '',
 												'repeat' => 'repeat',
 												'position' => 'top left',
 												'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#6c6c6c' ),
+						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#6c6c6c' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
-						'section_padding'=>'50px 0',
+						'section_padding'=>'50px 0 85px',
 						'text_align'=>'center',
 						'section_content'=>'<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <style type="text/css" scoped="scoped">.divider-5642db4238104{ margin-top: 30px;margin-bottom:0;width:100%;}.divider-5642db4238104 .divider-border{border-bottom-width:; border-color:;}.divider-5642db4238104 .double-line.divider-inner-item .divider-inner{border-top-width: ; border-bottom-width: ;}.divider-5642db4238104 .divider-border.divider-inner-item .divider-inner{ border-bottom-width: ;} </style><div class=" divider divider-5642db4238104" id="" style="margin-top:; margin-bottom:;"><div class="divider-inner divider-border"></div></div>
