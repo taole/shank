@@ -114,12 +114,12 @@ $aside          = 'both-aside';
 						'section_title'=>'',
 						'menu_title'=>'Home',
 						'menu_slug'=>'home',
-						'section_background'=>array(
-											  'color' => '',
-											  'image' => THEME_URL.'/images/start.png',
-											  'repeat' => 'repeat',
-											  'position' => 'top left',
-											  'attachment'=>'scroll' ),
+            'section_background'=>  array(
+                          'color' => '#ffffff',
+                          'image' => THEME_URL.'/images/start.png',
+                          'repeat' => 'no-repeat',
+                          'position' => 'bottom center',
+                          'attachment'=>'scroll' ),
 						'section_title_typography'=> array('size'  => '48px','face'  => '','style' => 'normal','color' => '#666666' ),
 						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
 						'parallax_scrolling'=>'no',
@@ -145,7 +145,7 @@ $aside          = 'both-aside';
 											  'image' => '',
 											  'repeat' => 'repeat',
 											  'position' => 'top left',
-											  'attachment'=>'scroll' ),
+											  'attachment'=>'scroll'),
 						'section_title_typography'=> array('size'  => '48px','face'  => '','style' => 'normal','color' => '#666666' ),
 						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
 						'parallax_scrolling'=>'no',
@@ -176,34 +176,24 @@ $aside          = 'both-aside';
 						'section_title'=>'THE CHARACTERS',
 						'menu_title'=>'Info',
 						'menu_slug'=>'info',
-						'section_background'=> array(
-											  'color' => '#ffffff',
-											  'image' => '',
-											  'repeat' => 'repeat',
-											  'position' => 'top left',
-											  'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+						'section_background'=>  array(
+                          'color' => '#fff',
+                          'image' => THEME_URL.'/images/bg2.png',
+                          'repeat' => 'no-repeat',
+                          'position' => 'bottom center',
+                          'attachment'=>'scroll' ),
+						'section_title_typography'=> array('size'  => '44px','face'  => '','style' => '300','color' => '#fff' ),
+						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#fff' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
-						'section_padding'=>'50px 0',
+						'section_padding'=>'80px 0 175px',
 						'text_align'=>'left',
-						'section_content'=>'<p style="text-align: center">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere ce.<br>
-  Etiam ut dui eu nisi lobortis rhoncus ac quis nunc.</p>
-<style type="text/css" scoped="scoped">
-.divider-5642db4239a47{ margin-top: 30px;margin-bottom:0;width:100%;}.divider-5642db4239a47 .divider-border{border-bottom-width:; border-color:;}.divider-5642db4239a47 .double-line.divider-inner-item .divider-inner{border-top-width: ; border-bottom-width: ;}.divider-5642db4239a47 .divider-border.divider-inner-item .divider-inner{ border-bottom-width: ;} 
-</style>
-<div class=" divider divider-5642db4239a47" id="" style="margin-top:; margin-bottom:;">
-  <div class="divider-inner divider-border"></div>
-</div>
-<div id="" class=" row">
-  <div class=" col-md-3" id="">
-    <style type="text/css" scoped="scoped">
-.person-5642db423a0e2 .person-vcard.person-social li a i{ border-radius: 4px; background-color:#595959;} .person-5642db423a0e2 .img-box img{ border-radius: 0; display: inline-block;} .person-5642db423a0e2 .img-box img{border-width: 1px;border-style: solid;}.person-5642db423a0e2 .img-box img{border-color: #eeeeee;}
-</style>
+						'section_content'=>'
+<div id="owl-charaters" class=" row">
+  <div class="item" id="">
     <div class="magee-person-box  person-5642db423a0e2" id="">
       <div class="person-img-box">
-        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.esc_url('http://www.mageewp.com/onetone/wp-content/uploads/sites/17/2015/11/001.jpg').'">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/storm.png">
           <div class="img-overlay primary">
             <div class="img-overlay-container">
               <div class="img-overlay-content"><i class="fa fa-link"></i></div>
@@ -212,24 +202,15 @@ $aside          = 'both-aside';
           </a></div>
       </div>
       <div class="person-vcard text-center">
-        <h3 class="person-name" style="text-transform: uppercase;">Kevin Perry</h3>
-        <h4 class="person-title" style="text-transform: uppercase;">Software Developer</h4>
+        <h3 class="person-name">Storm</h3>
         <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
-        <ul class="person-social">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-  <div class=" col-md-3" id="">
-    <style type="text/css" scoped="scoped">
-.person-5642db423a4bd .person-vcard.person-social li a i{ border-radius: 4px; background-color:#000000;} .person-5642db423a4bd .img-box img{ border-radius: 0; display: inline-block;} .person-5642db423a4bd .img-box img{border-width: 1px;border-style: solid;}.person-5642db423a4bd .img-box img{border-color: #eeeeee;}
-</style>
+  <div class="item" id="">
     <div class="magee-person-box  person-5642db423a4bd" id="">
       <div class="person-img-box">
-        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.esc_url('http://www.mageewp.com/onetone/wp-content/uploads/sites/17/2015/11/002.jpg').'">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/caim.png">
           <div class="img-overlay primary">
             <div class="img-overlay-container">
               <div class="img-overlay-content"><i class="fa fa-link"></i></div>
@@ -238,24 +219,15 @@ $aside          = 'both-aside';
           </a></div>
       </div>
       <div class="person-vcard text-center">
-        <h3 class="person-name" style="text-transform: uppercase;">Jennifer Lee</h3>
-        <h4 class="person-title" style="text-transform: uppercase;">Software Engineer</h4>
+        <h3 class="person-name">Caim</h3>
         <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
-        <ul class="person-social">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-  <div class=" col-md-3" id="">
-    <style type="text/css" scoped="scoped">
-.person-5642db423a876 .person-vcard.person-social li a i{ border-radius: 4px; background-color:#000000;} .person-5642db423a876 .img-box img{ border-radius: 0; display: inline-block;} .person-5642db423a876 .img-box img{border-width: 1px;border-style: solid;}.person-5642db423a876 .img-box img{border-color: #eeeeee;}
-</style>
+  <div class="item" id="">
     <div class="magee-person-box  person-5642db423a876" id="">
       <div class="person-img-box">
-        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.esc_url('http://www.mageewp.com/onetone/wp-content/uploads/sites/17/2015/11/003.jpg').'">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/ronin.png">
           <div class="img-overlay primary">
             <div class="img-overlay-container">
               <div class="img-overlay-content"><i class="fa fa-link"></i></div>
@@ -264,24 +236,15 @@ $aside          = 'both-aside';
           </a></div>
       </div>
       <div class="person-vcard text-center">
-        <h3 class="person-name" style="text-transform: uppercase;">Brandon Ross</h3>
-        <h4 class="person-title" style="text-transform: uppercase;">Java Developer</h4>
+        <h3 class="person-name">ronin</h3>
         <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
-        <ul class="person-social">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-  <div class=" col-md-3" id="">
-    <style type="text/css" scoped="scoped">
-.person-5642db423ac2a .person-vcard.person-social li a i{ border-radius: 4px; background-color:#000000;} .person-5642db423ac2a .img-box img{ border-radius: 0; display: inline-block;} .person-5642db423ac2a .img-box img{border-width: 1px;border-style: solid;}.person-5642db423ac2a .img-box img{border-color: #eeeeee;}
-</style>
+  <div class="item" id="">
     <div class="magee-person-box  person-5642db423ac2a" id="">
       <div class="person-img-box">
-        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.esc_url('http://www.mageewp.com/onetone/wp-content/uploads/sites/17/2015/11/004.jpg').'">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/lady-vale.png">
           <div class="img-overlay primary">
             <div class="img-overlay-container">
               <div class="img-overlay-content"><i class="fa fa-link"></i></div>
@@ -290,14 +253,144 @@ $aside          = 'both-aside';
           </a></div>
       </div>
       <div class="person-vcard text-center">
-        <h3 class="person-name" style="text-transform: uppercase;">Sara Wright</h3>
-        <h4 class="person-title" style="text-transform: uppercase;">Systems Engineer</h4>
+        <h3 class="person-name">lady vale</h3>
         <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
-        <ul class="person-social">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a0e2" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/storm.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">Storm</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a4bd" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/caim.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">Caim</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a876" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/ronin.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">ronin</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423ac2a" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/lady-vale.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">lady vale</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a0e2" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/storm.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">Storm</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a4bd" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/caim.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">Caim</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423a876" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/ronin.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">ronin</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
+      </div>
+    </div>
+  </div>
+  <div class="item" id="">
+    <div class="magee-person-box  person-5642db423ac2a" id="">
+      <div class="person-img-box">
+        <div class="img-box figcaption-middle text-center fade-in"><a href="#"><img src="'.get_site_url().'/wp-content/themes/onetone-child/images/lady-vale.png">
+          <div class="img-overlay primary">
+            <div class="img-overlay-container">
+              <div class="img-overlay-content"><i class="fa fa-link"></i></div>
+            </div>
+          </div>
+          </a></div>
+      </div>
+      <div class="person-vcard text-center">
+        <h3 class="person-name">lady vale</h3>
+        <p class="person-desc">Vivamus congue justo eget diam interdum scelerisque. In hac habitasse platea dictumst. </p>
       </div>
     </div>
   </div>
@@ -312,13 +405,13 @@ $aside          = 'both-aside';
 						'menu_title'=>'Crew',
 						'menu_slug'=>'crew',
 						'section_background'=> array(
-												'color' => '#eeeeee',
+												'color' => '#222',
 												'image' => '',
 												'repeat' => 'repeat',
 												'position' => 'top left',
 												'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '36px','face'  => '','style' => 'bold','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+						'section_title_typography'=> array('size'  => '44px','face'  => '','style' => '300','color' => '#222' ),
+						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#222' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
 						'section_padding'=>'50px 0',
@@ -344,38 +437,58 @@ be who we are without them. And in turn, are willing to stake our futures on cre
 						'section_title'=>'THE NOVELLAS',
 						'menu_title'=>'Novellas',
 						'menu_slug'=>'novellas',
-						'section_background'=> array(
-												  'color' => '#ffffff',
-												  'image' => '',
-												  'repeat' => 'repeat',
-												  'position' => 'top left',
-												  'attachment'=>'scroll' ),
-						'section_title_typography'=> array('size'  => '48px','face'  => '','style' => 'normal','color' => '#666666' ),
-						'section_content_typography'=> array('size'  => '14px','face'  => '','style' => 'normal','color' => '#666666' ),
+            'section_background'=>  array(
+                          'color' => '#fff',
+                          'image' => THEME_URL.'/images/bg1.png',
+                          'repeat' => 'no-repeat',
+                          'position' => 'bottom center',
+                          'attachment'=>'scroll' ),
+						'section_title_typography'=> array('size'  => '44px','face'  => '','style' => '300','color' => '#fff' ),
+            'section_content_typography'=> array('size'  => '20px','face'  => '','style' => '300','color' => '#fff' ),
 						'parallax_scrolling'=>'no',
 						'section_css_class'=>'',
-						'section_padding'=>'50px 0',
+						'section_padding'=>'70px 0 175px',
 						'text_align'=>'center',
-						'section_content'=>'<div id="" class=" row">
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db4235f60 h3 {font-size:18px;}.feature-box-5642db4235f60 h3 {color:#666666;}.feature-box-5642db4235f60 .icon-box{color:#000000;}.feature-box-5642db4235f60 .feature-content,.feature-box-5642db4235f60 .feature-content p{color:#666666;}.feature-box-5642db4235f60 .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db4235f60" id="" data-os-animation="fadeOut"><div class="icon-box " data-animation=""> <i class="feature-box-icon fa fa-leaf  fa-fw"></i></div><h3>FREE PSD TEMPLATE </h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu. </p><a href="" target="_blank" class="feature-link"></a></div></div>
+						'section_content'=>'<div id="owl-novellas" class=" row">
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC I: THE SOLDIER GAMES</span>
+  </div>
 </div>
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db42363df h3 {font-size:18px;}.feature-box-5642db42363df h3 {color:#666666;}.feature-box-5642db42363df .icon-box{color:#000000;}.feature-box-5642db42363df .feature-content,.feature-box-5642db42363df .feature-content p{color:#666666;}.feature-box-5642db42363df .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db42363df" id="" data-os-animation="fadeOut"><div class="icon-box " data-animation=""> <i class="feature-box-icon fa fa-hourglass-end  fa-fw"></i></div><h3>FREE PSD TEMPLATE</h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu.</p><a href="" target="_blank" class="feature-link"></a></div></div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC II: DIVING DEEP, THE <br>100 RING FESTIVAL</span>
+  </div>
 </div>
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db423682b h3 {font-size:18px;}.feature-box-5642db423682b h3 {color:#666666;}.feature-box-5642db423682b .icon-box{color:#000000;}.feature-box-5642db423682b .feature-content,.feature-box-5642db423682b .feature-content p{color:#666666;}.feature-box-5642db423682b .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db423682b" id="" data-os-animation="fadeOut"><div class="icon-box " data-animation=""> <i class="feature-box-icon fa fa-signal  fa-fw"></i></div><h3>FREE PSD TEMPLATE</h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu. </p><a href="" target="_blank" class="feature-link"></a></div></div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC III: LAW OF BLOOD</span>
+  </div>
 </div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC IV: THE DRAGON KING</span>
+  </div>
 </div>
-<div id="" class=" row">
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db4236ff8 h3 {font-size:18px;}.feature-box-5642db4236ff8 h3 {color:#666666;}.feature-box-5642db4236ff8 .icon-box{color:#000000;}.feature-box-5642db4236ff8 .feature-content,.feature-box-5642db4236ff8 .feature-content p{color:#666666;}.feature-box-5642db4236ff8 .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db4236ff8" id="" data-os-animation="fadeOut"><div class="icon-box" data-animation=""> <i class="feature-box-icon fa fa-heart  fa-fw"></i></div><h3>FREE PSD TEMPLATE</h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu.</p><a href="" target="_blank" class="feature-link"></a></div></div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC IV: THE DRAGON KING</span>
+  </div>
 </div>
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db423744b h3 {font-size:18px;}.feature-box-5642db423744b h3 {color:#666666;}.feature-box-5642db423744b .icon-box{color:#000000;}.feature-box-5642db423744b .feature-content,.feature-box-5642db423744b .feature-content p{color:#666666;}.feature-box-5642db423744b .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db423744b" id="" data-os-animation="fadeOut"><div class="icon-box " data-animation=""> <i class="feature-box-icon fa fa-video-camera  fa-fw"></i></div><h3>FREE PSD TEMPLATE </h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu.</p><a href="" target="_blank" class="feature-link"></a></div></div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC IV: THE DRAGON KING</span>
+  </div>
 </div>
-<div class=" col-md-4" id="">
-<style type="text/css">.feature-box-5642db423788d h3 {font-size:18px;}.feature-box-5642db423788d h3 {color:#666666;}.feature-box-5642db423788d .icon-box{color:#000000;}.feature-box-5642db423788d .feature-content,.feature-box-5642db423788d .feature-content p{color:#666666;}.feature-box-5642db423788d .icon-box{font-size:46px;}</style><div class="magee-feature-box style1  feature-box-5642db423788d" id="" data-os-animation="fadeOut"><div class="icon-box " data-animation=""> <i class="feature-box-icon fa fa-tag  fa-fw"></i></div><h3>FREE PSD TEMPLATE</h3><div class="feature-content"><p>Integer pulvinar elementum est, suscipit ornare ante finibus ac. Praesent vel ex dignissim, rhoncus eros luctus, dignissim arcu.</p><a href="" target="_blank" class="feature-link"></a></div></div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC IV: THE DRAGON KING</span>
+  </div>
+</div>
+<div class="item" id="">
+  <div class="magee-feature-box style1  feature-box" data-os-animation="fadeOut">
+    <span>ARC IV: THE DRAGON KING</span>
+  </div>
 </div>
 </div>
 ',

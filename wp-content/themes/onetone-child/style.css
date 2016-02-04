@@ -12,11 +12,10 @@
  Text Domain:  bootstrap-basic-child
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700);
 /*main menu*/
 .top-wrap { position: fixed; top: 40px; z-index: 999; left: 0; width: 100%}
-.main-header,
-.fxd-header { background: transparent; box-shadow:none;}
+.main-header{ background: transparent; box-shadow:none;}
 .top-wrap a { color: #fff;}
 .top-wrap a:hover { color: #fff; text-decoration: none;}
 .top-wrap .site-nav > ul > li > a {color: #fff; text-transform: uppercase; position: relative; font-size: 16px; font-family: 'Open Sans', sans-serif; line-height: 54px; }
@@ -30,6 +29,7 @@
 .top-wrap header .site-tagline { display: none;}
 .top-wrap header .site-name { color: #00a8ff!important;  font-size: 36px; font-family: "Myriad Pro"; text-decoration: none; text-transform: uppercase;}
 .top-wrap header .site-name:hover { text-decoration: none;}
+section.section{ background-size: 100%;  font-family: 'Open Sans', sans-serif; }
 /*Start block*/
 section#home { min-height: 790px;}
 
@@ -51,6 +51,24 @@ section#gallery .home-section-content p,
 section#contact .home-section-content p,
 section#bazaar .home-section-content p {font-family: 'Open Sans', sans-serif; font-size: 18px; color: #6c6c6c; line-height: 25px; margin-bottom: 25px;  }
 section#section-2 .promo-action img { margin-right: 35px; }
+/*charaters*/
+section#info h1.section-title { margin-bottom: 30px; font-weight: 300; }
+section#info .magee-person-box img { border-radius: 50%; border: none; }
+section#info .magee-person-box .img-box .img-overlay.primary{ border-radius: 50%; }
+section#info .magee-person-box .person-vcard .person-name { text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-size: 14px; }
+section#info .magee-person-box .person-vcard .person-name { text-transform: uppercase;font-size: 20px; margin: 23px 0 20px }
+.owl-theme .owl-controls { bottom: -119px;}
+.owl-theme .owl-controls .owl-page span { border-radius: 0; background: #fff; opacity: 1; width: 9px; height: 9px; margin:0 5px;}
+.owl-theme .owl-controls .owl-page.active span { border-radius: 0; background-color: #00a8ff;}
+
+.feature-box span {font-size:18px; background: #000; border: 1px solid #3e3e3e; display: table-cell; margin: 0 auto; width: 300px; text-align: center; height: 105px; vertical-align: middle;}
+.feature-box .icon-box{color:#000;}
+/*section#novellas .home-container .owl-item { margin: 0 7px;}*/
+section#novellas .owl-novellas { margin: 0 auto;}
+section#novellas h1.section-title { margin-bottom: 60px; font-weight: 300; }
+@media (min-width: 1200px){
+	section#novellas .home-container { width: 1344px; padding: 0;}
+}
 
 
 section#crew .home-section-content .btn-normal{padding: 15px 55px; color: #616161;font-family: 'Open Sans', sans-serif; font-size: 12px; background: #fff; border: 1px solid #7f7f7f;}
@@ -60,7 +78,7 @@ section#contact .home-section-content p,
 section#bazaar .home-section-content p { font-style: italic;}
 
 .homepage section .home-container h1,
-section#contact .home-container h1 {position: relative; font-family: 'Open Sans', sans-serif; /*font-size: 44px!important; color: #fff!important;*/ font-weight: 600!important; padding-bottom: 30px; text-transform: uppercase;}
+section#contact .home-container h1 {position: relative; font-family: 'Open Sans', sans-serif; /*font-size: 44px!important; color: #fff!important;*/ padding-bottom: 30px; text-transform: uppercase;}
 .homepage section .home-container h1:before{ content: ""; padding: 1px 0 2px; position: absolute; background: #0092ff; bottom: 0; width: 100px; left: 50%; margin-left: -50px; }
 .homepage section .home-container h1:after{ content: ""; padding: 1px 0 2px; position: absolute; background: #0092ff; bottom: -9px; width: 50px; left: 50%; margin-left: -25px; }
 
@@ -78,4 +96,4 @@ section#contact .section-title{ color: #222;}
 section#contact .content-ct{ width: 66.66666667%; margin: 0 auto;}
 section#contact .content-ct form{ margin-top:80px;}
 section#contact .content-ct form label { font-family: 'Open Sans', sans-serif;font-weight: normal; font-size: 14px; color: #636363;}
-section#contact .content-ct #submit{background: #00a8ff; color: #fff; line-height: 1; padding:12px 60px; border: none; text-transform: uppercase; float: right}
+section#contact .content-ct #submit{background: #00a8ff; color: #fff; line-height: 1; padding:12px 60px; border: none; text-transform: uppercase; margin:0 auto; display: block;}

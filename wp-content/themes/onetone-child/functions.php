@@ -3,6 +3,11 @@ define( 'THEME_BASE_URL', get_theme_root_uri());
 define( 'THEME_URL', THEME_BASE_URL.'/onetone-child/');
 // require_once THEME_URL . 'includes/admin-options.php';
 function theme_enqueue_styles() {
+	$section_title       = array("","","","GALLERY","OUR TEAM","ABOUT","TESTIMONIALS","","CONTACT");
+	$section_menu        = array("Home","","Info","Gallery","Team","About","Testimonials","","Contact");
+	$section_slug        = array('home','','info','gallery','team','about','testimonials','','contact');
+
+	wp_enqueue_script( 'onetone-hello',THEME_URL. 'js/script.js', array( 'jquery' ) );
 
 
     $parent_style = 'parent-style';
@@ -15,20 +20,7 @@ function theme_enqueue_styles() {
 
 }
 
-// // Remove the default Thematic blogtitle function
-// function remove_thematic_actions() {
-//     remove_action('thematic_header','optionsframework_options',3);
-// }
-// // Call 'remove_thematic_actions' (above) during WP initialization
-// add_action('init','remove_thematic_actions');
 
-// if (!function_exists('optionsframework_options')) {
-//     function _optionsframework_options() {
-//         $section_title       = array("","","","GALLERY","OUR TEAM","ABOUT","TESTIMONIALS","","CONTACT");
-// 		$section_menu        = array("Home","","Info","Gallery","Team","About","Testimonials","","Contact");
-// 		$section_slug        = array('home','','info','gallery','team','about','testimonials','','contact');
-//     }
-// }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 ?>
 
